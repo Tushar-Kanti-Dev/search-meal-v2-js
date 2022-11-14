@@ -1,0 +1,51 @@
+#search {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#search-meal {
+    width: 30%;
+    padding: 10px;
+}
+
+.imgs {
+    width: 300px;
+    object-fit: cover;
+}
+
+
+/* spinner  */
+
+#spinner {
+    display: none;
+    text-align: center;
+}
+
+#data {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
